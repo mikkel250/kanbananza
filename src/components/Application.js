@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CreateList from './CreateList';
-import Lists from './Lists';
+import ListsContainer from '../containers/ListsContainer';
 
 // import defaultState from '../default-state.json';
 
@@ -11,7 +11,7 @@ class Application extends Component {
         <div>{/* Users will go here! */}</div>
         <section>
           <CreateList />
-          <Lists />
+          <ListsContainer />
         </section>
       </main>
     );
